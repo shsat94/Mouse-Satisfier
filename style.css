@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(6, 6, 70);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 30rem;
+    width: 30rem;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+
+}
+
+.box {
+    margin: 1px;
+    height: 3.3rem;
+    width: 3.3rem;
+}
+
+.boxcomp {
+    box-shadow: 0.2rem 0.2rem 0.5rem black;
+    text-align: center;
+    font-size: 3rem;
+    background-color: rgb(190, 62, 62);
+    border-radius: 1rem;
+    transition: all 0.5s ease;
+    height: 3.3rem;
+    width: 3.3rem;
+    color: rgb(234, 176, 176);
+}
+
+.boxcomp:hover {
+    background-color: rgb(155, 138, 138);
+    transition: all 0.2s ease;
+    height: 3rem;
+    width: 3rem;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+    font-size: 2.7rem;
+}
